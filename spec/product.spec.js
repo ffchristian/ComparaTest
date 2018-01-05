@@ -4,9 +4,9 @@
 const expect = require('chai').expect;
 
 const Product = require('../src/product');
-const CarInsurance = require('../src/car-insurance');
 
-describe("Co Test", function() {
+
+describe("Product Test", function() {
 
     it("should lower the price", () => {
         const product =  new Product('Medium Coverage', 10, 20);
