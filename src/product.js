@@ -8,7 +8,7 @@ class Product {
         this.sellIn = sellIn;
         this.price = price;
     }
-    selectRule(){
+    selectPriceRule(){
         let rule = 'basic';
         switch (this.name){
             case constants.productNames.superSale:
