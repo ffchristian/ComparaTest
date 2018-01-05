@@ -4,7 +4,7 @@
 const expect = require('chai').expect;
 
 const Product = require('../src/product');
-const CarInsurance = require('../src/coTest');
+const CarInsurance = require('../src/car-insurance');
 
 describe("Co Test", function() {
 
