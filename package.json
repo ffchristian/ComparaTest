@@ -4,7 +4,8 @@
   "description": "Test compara online for dev position",
   "main": "index.js",
   "scripts": {
-    "test": "nyc mocha spec/*.js "
+    "test": "nyc mocha spec/*.js ",
+    "after-30-days": "node src/run.js"
   },
   "author": "Christian Farias",
   "license": "ISC",
